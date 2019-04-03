@@ -1,0 +1,38 @@
+/*
+    Name:       Gatito
+    Author:     Chris Young (https://github.com/ctopheryoung)
+
+    Original Gatito color scheme by Pawel Grzybek (https://github.com/pawelgrzybek/gatito-themee)
+*/
+
+.cm-s-gatito.CodeMirror, .cm-s-gatito .CodeMirror-gutters {
+  background-color: #252B2E !important;
+  color: #545454 !important;
+  border-right-color: #545454;
+}
+.cm-s-gatito .CodeMirror-gutters { color: #252B2E; }
+.cm-s-gatito .CodeMirror-cursor { border-left: solid thin #D4D4D4; }
+.cm-s-gatito .CodeMirror-linenumber { color: #545454; }
+.cm-s-gatito.CodeMirror-focused div.CodeMirror-selected { background: rgba(255, 255, 255, 0.10); }
+.cm-s-gatito .CodeMirror-line::selection, .cm-s-gatito .CodeMirror-line > span::selection, .cm-s-gatito .CodeMirror-line > span > span::selection { background: rgba(255, 255, 255, 0.10); }
+.cm-s-gatito .CodeMirror-line::-moz-selection, .cm-s-gatito .CodeMirror-line > span::-moz-selection, .cm-s-gatito .CodeMirror-line > span > span::-moz-selection { background: rgba(255, 255, 255, 0.10); }
+.cm-s-gatito span.cm-comment { color: #545454; }
+.cm-s-gatito span.cm-string, .cm-s-gatito span.cm-string-2 { color: #99C794; }
+.cm-s-gatito span.cm-number { color: #F99157; }
+.cm-s-gatito span.cm-variable { color: #D4D4D4; }
+.cm-s-gatito span.cm-variable-2 { color: white; }
+.cm-s-gatito span.cm-def { color: #ffb86c; }
+.cm-s-gatito span.cm-keyword { color: #C594C5; }
+.cm-s-gatito span.cm-operator { color: #5FB3B3; }
+.cm-s-gatito span.cm-keyword { color: #C594C5; }
+.cm-s-gatito span.cm-atom { color: #F99157; }
+.cm-s-gatito span.cm-meta { color: #D4D4D4; }
+.cm-s-gatito span.cm-tag { color: #EB606B; }
+.cm-s-gatito span.cm-attribute { color: #D4D4D4; }
+.cm-s-gatito span.cm-qualifier { color: #D4D4D4; }
+.cm-s-gatito span.cm-property { color: #FAC863; }
+.cm-s-gatito span.cm-builtin { color: #D4D4D4; }
+.cm-s-gatito span.cm-variable-3 { color: #D4D4D4; }
+
+.cm-s-gatito .CodeMirror-activeline-background { background: rgba(255, 255, 255, 0.10); }
+.cm-s-gatito .CodeMirror-matchingbracket { text-decoration: underline; color: #5FB3B3 !important; }
